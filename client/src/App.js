@@ -13,7 +13,7 @@ import './App.scss';
 import { Messaging } from './Messaging';
 import { requestFirebaseNotificationPermission } from './firebaseInit';
 
-axios.defaults.baseURL = 'http://localhost:3001/v1';
+axios.defaults.baseURL = 'http://localhost:3002/v1';
 
 const App = () => {
   requestFirebaseNotificationPermission()

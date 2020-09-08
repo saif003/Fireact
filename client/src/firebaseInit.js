@@ -1,17 +1,18 @@
-import firebase from 'firebase/app';
-import 'firebase/messaging';
+import firebase from "firebase/app";
+import "firebase/messaging";
 
-const config = {
-  apiKey: 'AIzaSyD6n58WMRzrcXxMnDGvzttxk4lqNu0MZbI',
-  authDomain: 'push-notifications-article.firebaseapp.com',
-  databaseURL: 'https://push-notifications-article.firebaseio.com',
-  projectId: 'push-notifications-article',
-  storageBucket: 'push-notifications-article.appspot.com',
-  messagingSenderId: '607164875245',
-  appId: '1:607164875245:web:ac22e68ecfd336b8ad67e4',
+const firebaseConfig = {
+  apiKey: "AIzaSyDsxy1_Vgl70CPpvA9TuA1iiMmlw5fMtu8",
+  authDomain: "fir-app-d76e1.firebaseapp.com",
+  databaseURL: "https://fir-app-d76e1.firebaseio.com",
+  projectId: "fir-app-d76e1",
+  storageBucket: "fir-app-d76e1.appspot.com",
+  messagingSenderId: "154719325353",
+  appId: "1:154719325353:web:fcad2fae928807965f6db8",
+  measurementId: "G-K5T8LCWVC8",
 };
 
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
 
 const messaging = firebase.messaging();
 
