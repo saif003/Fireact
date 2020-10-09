@@ -12,8 +12,8 @@ import { toast } from 'react-toastify';
 import { onMessageListener } from './firebaseInit';
 
 export const Messaging = () => {
-  const [ messages, setMessages ] = React.useState([]);
-  const [ requesting, setRequesting ] = React.useState(false);
+  const [messages, setMessages] = React.useState([]);
+  const [requesting, setRequesting] = React.useState(false);
 
   React.useEffect(() => {
     setRequesting(true);
